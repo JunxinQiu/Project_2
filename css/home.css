@@ -1,0 +1,70 @@
+.scale img{
+    background-size: cover;
+    width:100%;
+    height: auto;
+}
+
+.container-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+}
+
+.container-1 img {
+    width:100%;
+    heigth:50%;
+    object-fit: cover;
+}
+
+.textOneRow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container-1 p{
+    max-height: 40%;
+}
+
+.container-1-1{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32%;
+    height: 400px;
+}
+
+.container-1-2{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32%;
+    height: 400px;
+}
+
+.container-1-3{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32%;
+    height: 400px;
+}
+
+.clear{
+    clear: both;
+}
+
+.textBox{
+    margin: 5%;
+    text-align: center;
+    color:black;
+}
+
+.container-2-1{
+    float: left;
+    background-color: white;
+    width: 33%;
+    height: 400px;
+}
+
+

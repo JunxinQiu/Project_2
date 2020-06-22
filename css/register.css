@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    background-size: cover;
+}
+
+img{
+    height: 150px;
+    object-fit: contain;
+}
+
+.mainPart{
+    background-color: rgba(27, 173, 172, 0.53);
+    margin: 15px 30% 10px;
+    padding:15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    border-style: outset none none none;
+    border-color: rgba(150, 255, 233, 0.86);
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    margin-bottom: 10px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgba(42, 78, 119, 0);
+    border-color: #e2e3e8;
+    border-style: solid;
+    border-width: 1px;
+    width: 70%;
+    text-indent: 15px;
+    font-size: large;
+
+    color: #f8ffff;
+    /*color: #022d53;*/
+    outline-style: none;
+}
+
+input::placeholder{
+    color: rgba(226, 227, 232, 0.7);
+}
+
+
+.line{
+    position: relative;
+    color: rgba(248, 255, 255, 0.71);
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.line:before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 1px;
+    top: 50%;
+    background-color: rgba(237, 237, 237, 0.69);
+    left: -150%;
+}
+
+.line:after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 1px;
+    top: 50%;
+    background-color: rgba(237, 237, 237, 0.69);
+    right: -150%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+button{
+    height: 45px;
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 2px;
+    background-color: cornflowerblue;
+    color: white;
+
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    outline: none;
+    font-size: large;
+}
+
+button:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+
+
+footer{
+    background-color: rgba(2, 45, 83, 0.11);
+    color: #151a28;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    font-size: small;
+}

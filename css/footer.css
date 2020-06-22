@@ -1,0 +1,13 @@
+footer{
+    height: 80px;
+    margin: -10px;
+    background-color:#202020;
+    color:white;
+    text-align: center;
+    font-size: smaller;
+}
+
+footer ul{
+    list-style-type:none;
+    padding-top: 20px;
+}

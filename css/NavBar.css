@@ -1,0 +1,122 @@
+.NavBar{
+    height: 55px;
+    width: 1600px;
+    background-color: black;
+    margin-top: -10px ;
+    margin-left: -10px;
+    margin-right: 0;
+    font-family:Microsoft YaHei, sans-serif;
+}
+
+.NavBar img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+.NavBar_left
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.NavBar_left ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.NavBar_left li{
+    float: left;
+}
+
+.NavBar_left a:link,.NavBar_left a:visited {
+    display:block;
+    width:70px;
+    font-weight:bold;
+    color: rgba(191, 191, 193, 0.68);
+    text-align:center;
+    padding: 4px;
+    text-decoration:none;
+}
+
+.NavBar_left a:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.NavBar_left .highlight{
+    border-bottom: rgba(24, 40, 82, 0.83);
+    border-bottom-width: 5px;
+    border-style: none none solid none;
+}
+
+.NavBar_right{
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+}
+
+.dropbtn {
+    font-weight:bold;
+    color: rgba(191, 191, 193, 0.68);
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    margin-top: 8px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #2a4e77;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.NavBar_right.highlight{
+    padding-bottom: 6px;
+    border-bottom: rgba(24, 40, 82, 0.83);
+    border-bottom-width: 5px;
+    border-style: none none solid none;
+}
+.refresh{
+    right:15px;
+    cursor:'pointer';
+    position:fixed;
+    bottom:75px;
+}
+
+.toTop{
+    width: 50px;
+    height: 50px;
+    bottom:10px;
+    right:15px;
+    position:fixed;
+    cursor:pointer;
+}
+

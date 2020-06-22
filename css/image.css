@@ -1,0 +1,148 @@
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 1rem;
+    letter-spacing: 1rem;
+}
+
+main {
+    margin: 2rem auto 4rem;
+}
+
+.imgGroup ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.thumbnail {
+    height: 300px;
+    min-width: 402px;
+    background: #e3e5e8;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.thumbnail a div {
+    flex: 0 0 200px;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 4px 2px #999999;
+}
+
+.thumbnail a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.thumbnail a div:last-of-type {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    flex: 1 1;
+}
+
+.thumbnail div.img-box {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    background-color: #232a34;
+    cursor: pointer;
+}
+
+.thumbnail .img-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: all .4s cubic-bezier(.645, .045, .355, 1);
+}
+
+.thumbnail a .img-box:hover img {
+    transform: scale(1.1);
+}
+
+.thumbnail a div p {
+    color: #a9a9a9;
+    font-size: 1.6rem;
+    margin: 1rem 3rem 0;
+    height: 8rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thumbnail div h3 {
+    color: black;
+    font-size: 2.0rem;
+    margin: 0.7rem 2.9rem 0;
+    height: 2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.thumbnail div form {
+    margin: 0.7rem 2.9rem 0;
+    font-size: 1.4rem;
+}
+
+.thumbnail form input {
+    padding: 5px 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+    /*background-color: #45547a;*/
+    /*background-image: linear-gradient(#45547a, #37466E);*/
+    background: #6439af;
+    border: none;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: all 100ms ease-in-out;
+}
+
+.thumbnail div input:first-of-type {
+    margin-left: 0;
+}
+
+.thumbnail div input:hover {
+    background: #8a2be2;
+    box-shadow: 0 0 2px 1px #999999;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.thumbnail div input[name="delete"] {
+    background: #DC143C;
+}
+
+.thumbnail div input[name="delete"]:hover {
+    background: #FF0000;
+}
+
+@media (max-width: 1200px) {
+    .thumbnail .img-box {
+        width: 160px;
+    }
+
+    .thumbnail a .img-box img {
+        width: 160px;
+    }
+
+    .thumbnail a div {
+        flex: 0 0 160px;
+    }
+}
